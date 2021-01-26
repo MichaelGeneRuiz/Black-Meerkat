@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Aneemals</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto|Rubik|Titillium+Web" rel="stylesheet">
+	<script src="scripts.js"></script>
+</head>
+<body>
+	
+	<header class="header" id="sectionHeader">
+			
+			<div class="mainwords">The Black Meerkat</div>
+			<div class="subwords">The Best Place to Buy All Kinds of Animals</div>
+
+	</header>
+
+	<div class="navigation">
+				
+			<input type="checkbox" class="navigation_checkbox" id="navi-toggle">
+
+			<label for="navi-toggle" class="navigation_button">
+				<span class="navigation_icon"></span>
+			</label>
+
+			<div class="navigation_background">&nbsp;</div>
+
+			<nav class="navigation_nav">
+		
+				<ul class="navigation_list">
+					<li class="navigation_item" onClick="hamburger()" ><a href="#sectionHeader" class="navigation_link">Home</a></li>
+					<li class="navigation_item" onClick="hamburger()" ><a href="#sectionAbout" class="navigation_link">About</a></li>
+					<li class="navigation_item" onClick="hamburger()" ><a href="#sectionCards" class="navigation_link">Categories</a></li>
+					<li class="navigation_item" onClick="hamburger()" ><a href="#sectionReviews" class="navigation_link">Reviews</a></li>
+				</ul>
+
+			</nav>
+
+	</div>
+
+	<main>
+		<section class="overview" id="sectionAbout">
+		
+			<div class="row">
+				<div class="col-1-of-2">
+					<div class="overviewHeading">Why use the Black Meerkat?</div>
+
+					<div class="overviewBody">For those willing to undertake the great responsibility of owning these exotic animals, look no further. Here at the Black Meerkat we have a wide assortment of various animals from all corners of the world. We ensure that these animals have been minimally handled while within our care and are solely handled for capture and transportation purposes. This allows you, the customer, to have the full experience of owning an exotic, wild animal.</div>
+				</div>
+
+				<div class = "col-1-of-2">
+					<div class="overviewComp">
+						<img class="overviewImage1 compPhoto" src="img/ContentBlock2/bear.jpg">
+						<img class="overviewImage2 compPhoto" src="img/ContentBlock2/coolbird.jpg">
+						<img class="overviewImage3 compPhoto" src="img/ContentBlock2/animal.jpg">
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section class = "packages" id="sectionCards">
+			
+			<div class="packageHeader">Have a look at categories we have available, organized by the areas in which the animals are found.</div>
+
+			<div class="row">
+				
+				<div class="packageDetails">
+
+					<div class="col-1-of-4">
+
+						<div class="card">
+							
+							<div class="card-side card-side-front card-one">
+								
+								<div class="card-header">Rainforest</div>
+
+							</div>
+
+							<div class="card-side card-side-back card-side-back-one">
+								
+								<div class = "card-one-back-header">Over 50+ species of animals including:</div>
+								<ul class = "card-one-back-list">
+									<li>Lizards</li>
+									<li>Iguanas</li>
+									<li>Northern Dwarf Tree Frogs</li>
+								</ul>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col-1-of-4">
+
+						<div class="card">
+							
+							<div class="card-side card-side-front card-two">
+								
+								<div class="card-header">Savannah</div>
+
+							</div>
+
+							<div class="card-side card-side-back card-side-back-two">
+								
+								<div class = "card-two-back-header">Over 50+ species of animals including:</div>
+								<ul class = "card-two-back-list">
+									<li>Hippopotami</li>
+									<li>Lions</li>
+									<li>Rhinoceros</li>
+								</ul>
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-1-of-4">
+
+						<div class="card">
+							
+							<div class="card-side card-side-front card-three">
+								
+								<div class="card-header">Sky</div>
+
+							</div>
+
+							<div class="card-side card-side-back card-side-back-three">
+								
+								<div class = "card-three-back-header">Over 75+ species of animals including:</div>
+								<ul class = "card-three-back-list">
+									<li>Ducks</li>
+									<li>Parrots</li>
+									<li>Roosters</li>
+								</ul>
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-1-of-4">
+
+						<div class="card">
+							
+							<div class="card-side card-side-front card-four">
+								
+								<div class="card-header">Steppes</div>
+
+							</div>
+
+							<div class="card-side card-side-back card-side-back-four">
+								
+								<div class = "card-four-back-header">Over 25+ species of animals including:</div>
+								<ul class = "card-four-back-list">
+									<li>Bison</li>
+									<li>Horses</li>
+									<li>Yaks</li>
+								</ul>
+
+							</div>
+
+						</div>
+						
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class = "reviews" id="sectionReviews">
+
+			<div class="reviewHeader">Check out the reviews from some of our satisfied customers!</div>
+
+			<div class="reviewContainers">
+				<div class="reviewProfilePics"></div>
+				<div class="reviewText">No reviews yet...</div>
+			</div>
+
+			<div class="reviewContainers">
+				<div class="reviewProfilePics"></div>
+				<div class="reviewText">No reviews yet...</div>
+
+			</div>
+
+			<div class="reviewContainers">
+				<div class="reviewProfilePics"></div>
+				<div class="reviewText">No reviews yet...</div>
+
+			</div>
+				
+				<a href = "#popup1">
+					<div class="submitReviewButton">Submit a Review</div>
+				</a>
+
+			<div class="overlay" id = "popup1">
+				
+				<div class="revPopup">
+					
+					<h2>Oops!</h2>
+
+					<a class="revClose" href="#sectionReviews">&times;</a>
+					<div class="revContent">
+						We're sorry, but we haven't implemented this feature yet. Please check back later.
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+	</main>
+
+</body>
+</html>
